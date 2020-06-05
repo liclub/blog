@@ -48,6 +48,3 @@ type: about
 ## Links
 
 - 个人博客：[明不知昔](https://noctiflorous.gitee.io/)
-- 免费影视资源：[www.66s.cc](www.66s.cc)
-- 博客大神：[星合の空 wu-kan](wu-kan.github.io)
-- 学习资料网站：[C 语言中文网](http://c.biancheng.net)
