@@ -657,7 +657,7 @@ canvas_ribbon: false
 
 script: # 需要在正文后调用的脚本或者插件的autoloader,用 - src :增加 
 - src: https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js # jQuery
-- src: /assets/js/src/mermaid.js # mermaid
+- src: https://liclub.github.io/blog/assets/js/src/mermaid.js # mermaid
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
