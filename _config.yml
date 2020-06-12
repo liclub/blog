@@ -674,7 +674,7 @@ vendors:
 
   # Internal version: 2.1.5
   # See: http://fancyapps.com/fancybox/
-  fancybox: https://cdn.jsdelivr.net/npm/fancybox@2.1.5/dist/fancybox.jquery.cjs.min.js
+  fancybox: https://cdn.jsdelivr.net/npm/fancybox@3.0.1/dist/js/jquery.fancybox.cjs.js
   fancybox_css: https://cdn.jsdelivr.net/npm/fancybox@2.1.5/dist/css/jquery.fancybox.css
 
   # Internal version: 1.0.6
@@ -756,7 +756,7 @@ version: 5.1.1
 cdn:
     npm: https://cdn.jsdelivr.net/npm   #npm配置
     gh: https://cdn.jsdelivr.net/gh    #github配置
-    ggh: https://cdn.jsdelivr.net/gh/liclub/liclubImg/img/ #github自己的配置
+    ggh: https://cdn.jsdelivr.net/gh/liclub/blog #github自己的配置
 #增加看板娘#
 live2d:
     enable: true
