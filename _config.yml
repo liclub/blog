@@ -84,7 +84,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: https://cdn.jsdelivr.net/gh/galensgan/galensgan.github.io/assets/images/info/galens-favicon.ico
+favicon: https://liclub.github.io/blog/assets/images/info/galens-favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT, Haoyang's Blog"
@@ -241,7 +241,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: https://cdn.jsdelivr.net/gh/galensgan/galensgan.github.io/assets/images/info/author.jpg
+avatar: https://cdn.jsdelivr.net/gh/liclub/liclubImg/img/author.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -756,8 +756,7 @@ version: 5.1.1
 cdn:
     npm: https://cdn.jsdelivr.net/npm   #npm配置
     gh: https://cdn.jsdelivr.net/gh    #github配置
-    ggh: https://cdn.jsdelivr.net/gh/galensgan/galensgan.github.io #github自己的配置
-
+    ggh: https://cdn.jsdelivr.net/gh/liclub/liclubImg/img/ #github自己的配置
 #增加看板娘#
 live2d:
     enable: true
