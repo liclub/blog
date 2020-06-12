@@ -657,7 +657,6 @@ canvas_ribbon: false
 
 script: # 需要在正文后调用的脚本或者插件的autoloader,用 - src :增加 
 - src: https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js # jQuery
-- src: https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css # fontawesome
 - src: /assets/js/src/mermaid.js # mermaid
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
@@ -674,7 +673,7 @@ vendors:
 
   # Internal version: 2.1.5
   # See: http://fancyapps.com/fancybox/
-  fancybox: https://cdn.jsdelivr.net/npm/fancybox@3.0.1/dist/js/jquery.fancybox.cjs.js
+  fancybox: https://cdn.jsdelivr.net/npm/fancybox@2.1.5/dist/js/jquery.fancybox.js
   fancybox_css: https://cdn.jsdelivr.net/npm/fancybox@2.1.5/dist/css/jquery.fancybox.css
 
   # Internal version: 1.0.6
