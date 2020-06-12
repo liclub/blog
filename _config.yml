@@ -447,8 +447,8 @@ gitalk:
   clientID: 3a463e47a18cfb32000d
   clientSecret: f2105636f0ea40b011b72c19f9ea531dc3de0154
   repo: blog-comments
-  owner: Yonnelee
-  admin: Yonnelee
+  owner: liclub
+  admin: liclub
 
 # Baidu Share
 # Available value:
