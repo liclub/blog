@@ -332,7 +332,7 @@ post_wordcount:
 # Wechat Subscriber
 #wechat_subscriber:
 #  enabled: true
-#  qcode: https://cdn.jsdelivr.net/gh/galensgan/galensgan.github.io/assets/images/info/wechat-qrcode.jpg
+#  qcode: https://cdn.jsdelivr.net/gh/liclub/blog/assets/images/info/wechat-qrcode.jpg
 #  description: 欢迎订阅 BIMFlying，这里分享关于 BIM 的一切。
 
 # Declare license on posts
