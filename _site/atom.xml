@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-12T14:59:38+08:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">无知无畏</title><subtitle>一只默默无闻的小前端</subtitle><author><name>YonneLee</name></author><entry><title type="html">Markdown 简明语法手册</title><link href="http://localhost:4000/2018/12/11/MarkDown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/" rel="alternate" type="text/html" title="Markdown 简明语法手册" /><published>2018-12-11T00:00:00+08:00</published><updated>2018-12-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/11/MarkDown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95</id><content type="html" xml:base="http://localhost:4000/2018/12/11/MarkDown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/">&lt;!--more--&gt;
+
+&lt;h1 id=&quot;markdown-简明语法手册&quot;&gt;Markdown 简明语法手册&lt;/h1&gt;
+
+&lt;h3 id=&quot;1-斜体和粗体&quot;&gt;1. 斜体和粗体&lt;/h3&gt;
+
+&lt;p&gt;使用 * 和 ** 表示斜体和粗体。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;p&gt;这是 &lt;em&gt;斜体&lt;/em&gt;，这是 &lt;strong&gt;粗体&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;2-分级标题&quot;&gt;2. 分级标题&lt;/h3&gt;
+
+&lt;p&gt;使用 === 表示一级标题，使用 — 表示二级标题。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这是一个一级标题
+============================
+
+这是一个二级标题
+----------------------------
+
+### 这是一个三级标题
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。&lt;/p&gt;
+
+&lt;h3 id=&quot;3-外链接&quot;&gt;3. 外链接&lt;/h3&gt;
+
+&lt;p&gt;使用 [描述](链接地址) 为文字增加外链接。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;p&gt;这是去往 &lt;a href=&quot;https://noctiflorous.gitee.io/&quot;&gt;本人博客&lt;/a&gt; 的链接。&lt;/p&gt;
+
+&lt;h3 id=&quot;4-无序列表&quot;&gt;4. 无序列表&lt;/h3&gt;
+
+&lt;p&gt;使用 *，+，- 表示无序列表。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;无序列表项 一&lt;/li&gt;
+  &lt;li&gt;无序列表项 二&lt;/li&gt;
+  &lt;li&gt;无序列表项 三&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-有序列表&quot;&gt;5. 有序列表&lt;/h3&gt;
+
+&lt;p&gt;使用数字和点表示有序列表。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;有序列表项 一&lt;/li&gt;
+  &lt;li&gt;有序列表项 二&lt;/li&gt;
+  &lt;li&gt;有序列表项 三&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;6-文字引用&quot;&gt;6. 文字引用&lt;/h3&gt;
+
+&lt;p&gt;使用 &amp;gt; 表示文字引用。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;野火烧不尽，春风吹又生。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;7-行内代码块&quot;&gt;7. 行内代码块&lt;/h3&gt;
+
+&lt;p&gt;使用 `代码` 表示行内代码块。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;p&gt;让我们聊聊 &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;8--代码块&quot;&gt;8.  代码块&lt;/h3&gt;
+
+&lt;p&gt;使用 四个缩进空格 表示代码块。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这是一个代码块，此行左侧有四个不可见的空格。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;9--插入图像&quot;&gt;9.  插入图像&lt;/h3&gt;
+
+&lt;p&gt;使用 ![描述](图片链接地址) 插入图像。&lt;/p&gt;
+
+&lt;p&gt;示例：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.netbian.com/file/2019/0220/52ea84369dd40268d595766c76fda7f3.jpg&quot; alt=&quot;山水&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;markdown-高阶语法手册&quot;&gt;Markdown 高阶语法手册&lt;/h1&gt;
+
+&lt;h3 id=&quot;1-内容目录&quot;&gt;1. 内容目录&lt;/h3&gt;
+
+&lt;p&gt;在段落中填写 &lt;code class=&quot;highlighter-rouge&quot;&gt;[TOC]&lt;/code&gt; 或者&lt;code class=&quot;highlighter-rouge&quot;&gt;{:toc}&lt;/code&gt; 以显示全文内容的目录结构。&lt;/p&gt;
+
+&lt;p&gt;[TOC]&lt;/p&gt;
+
+&lt;h3 id=&quot;2-标签分类&quot;&gt;2. 标签分类&lt;/h3&gt;
+
+&lt;p&gt;在编辑区任意行的列首位置输入以下代码给文稿标签：&lt;/p&gt;
+
+&lt;p&gt;标签： 数学 英语 Markdown&lt;/p&gt;
+
+&lt;p&gt;或者&lt;/p&gt;
+
+&lt;p&gt;Tags： 数学 英语 Markdown&lt;/p&gt;
+
+&lt;h3 id=&quot;3-删除线&quot;&gt;3. 删除线&lt;/h3&gt;
+
+&lt;p&gt;使用 ~~ 表示删除线。&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;这是一段错误的文本。&lt;/del&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-注脚&quot;&gt;4. 注脚&lt;/h3&gt;
+
+&lt;p&gt;使用 [^keyword] 表示注脚。&lt;/p&gt;
+
+&lt;p&gt;这是一个注脚&lt;sup id=&quot;fnref:footnote&quot;&gt;&lt;a href=&quot;#fn:footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;的样例。&lt;/p&gt;
+
+&lt;p&gt;这是第二个注脚&lt;sup id=&quot;fnref:footnote2&quot;&gt;&lt;a href=&quot;#fn:footnote2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;的样例。&lt;/p&gt;
+
+&lt;h3 id=&quot;5-latex-公式&quot;&gt;5. LaTeX 公式&lt;/h3&gt;
+
+&lt;p&gt;$ 表示行内公式：&lt;/p&gt;
+
+&lt;p&gt;质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。&lt;/p&gt;
+
+&lt;p&gt;$$ 表示整行公式：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^n a_i=0&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}&lt;/script&gt;
+
+&lt;p&gt;访问 &lt;a href=&quot;http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference&quot;&gt;MathJax&lt;/a&gt; 参考更多使用方法。&lt;/p&gt;
+
+&lt;h3 id=&quot;6-加强的代码块&quot;&gt;6. 加强的代码块&lt;/h3&gt;
+
+&lt;p&gt;支持四十一种编程语言的语法高亮的显示，行号显示。&lt;/p&gt;
+
+&lt;p&gt;非代码示例：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get install vim-gnome
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Python 示例：&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@requires_authorization&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;somefunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'''A docstring'''&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# interesting&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Greater'&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SomeClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'''interpreter
+... prompt'''&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;JavaScript 示例：&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/**
+* nth element in the fibonacci series.
+* @param n &amp;gt;= 0
+* @return the nth element, &amp;gt;= 0.
+*/&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;7-流程图&quot;&gt;7. 流程图&lt;/h3&gt;
+
+&lt;h4 id=&quot;示例&quot;&gt;示例&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: Start:&amp;gt;https://www.zybuluo.com
+io=&amp;gt;inputoutput: verification
+op=&amp;gt;operation: Your Operation
+cond=&amp;gt;condition: Yes or No?
+sub=&amp;gt;subroutine: Your Subroutine
+e=&amp;gt;end
+
+st-&amp;gt;io-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;sub-&amp;gt;io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;更多语法参考流程图语法参考&quot;&gt;更多语法参考：&lt;a href=&quot;http://adrai.github.io/flowchart.js/&quot;&gt;流程图语法参考&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;8-序列图&quot;&gt;8. 序列图&lt;/h3&gt;
+
+&lt;h4 id=&quot;示例-1&quot;&gt;示例 1&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-seq&quot;&gt;Alice-&amp;gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&amp;gt;Alice: I am good thanks!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;示例-2&quot;&gt;示例 2&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-seq&quot;&gt;Title: Here is a title
+A-&amp;gt;B: Normal line
+B--&amp;gt;C: Dashed line
+C-&amp;gt;&amp;gt;D: Open arrow
+D--&amp;gt;&amp;gt;A: Dashed open arrow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;更多语法参考序列图语法参考&quot;&gt;更多语法参考：&lt;a href=&quot;http://bramp.github.io/js-sequence-diagrams/&quot;&gt;序列图语法参考&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;9-甘特图&quot;&gt;9. 甘特图&lt;/h3&gt;
+
+&lt;p&gt;甘特图内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-gantt&quot;&gt;    title 项目开发流程
+    section 项目确定
+        需求分析       :a1, 2016-06-22, 3d
+        可行性报告     :after a1, 5d
+        概念验证       : 5d
+    section 项目实施
+        概要设计      :2016-07-05  , 5d
+        详细设计      :2016-07-08, 10d
+        编码          :2016-07-15, 10d
+        测试          :2016-07-22, 5d
+    section 发布验收
+        发布: 2d
+        验收: 3d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;更多语法参考甘特图语法参考&quot;&gt;更多语法参考：&lt;a href=&quot;https://knsv.github.io/mermaid/#gant-diagrams&quot;&gt;甘特图语法参考&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;10-mermaid-流程图&quot;&gt;10. Mermaid 流程图&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-graphLR&quot;&gt;    A[Hard edge] --&amp;gt;|Link text| B(Round edge)
+    B --&amp;gt; C{Decision}
+    C --&amp;gt;|One| D[Result one]
+    C --&amp;gt;|Two| E[Result two]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;更多语法参考mermaid-流程图语法参考&quot;&gt;更多语法参考：&lt;a href=&quot;https://knsv.github.io/mermaid/#flowcharts-basic-syntax&quot;&gt;Mermaid 流程图语法参考&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;11-mermaid-序列图&quot;&gt;11. Mermaid 序列图&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-sequence&quot;&gt;    Alice-&amp;gt;John: Hello John, how are you?
+    loop every minute
+        John--&amp;gt;Alice: Great!
+    end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;更多语法参考mermaid-序列图语法参考&quot;&gt;更多语法参考：&lt;a href=&quot;https://knsv.github.io/mermaid/#sequence-diagrams&quot;&gt;Mermaid 序列图语法参考&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;12-表格支持&quot;&gt;12. 表格支持&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Markdown 制作表格使用&lt;/td&gt;
+      &lt;td&gt;来分隔不同的单元格，使用 - 来分隔表头和其他行。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;语法格式如下：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;对齐方式&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我们可以设置表格的对齐方式：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;-: 设置内容和标题栏居右对齐。&lt;/li&gt;
+  &lt;li&gt;:- 设置内容和标题栏居左对齐。&lt;/li&gt;
+  &lt;li&gt;:-: 设置内容和标题栏居中对齐。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;实例如下：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;效果如下：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;价格&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;数量&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;计算机&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;手机&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管线&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;234&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;13-定义型列表&quot;&gt;13. 定义型列表&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;名词 1&lt;/dt&gt;
+  &lt;dd&gt;定义 1（左侧有一个可见的冒号和四个不可见的空格）&lt;/dd&gt;
+  &lt;dt&gt;代码块 2&lt;/dt&gt;
+  &lt;dd&gt;这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;代码块（左侧有八个不可见的空格）
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;14-html-标签&quot;&gt;14. Html 标签&lt;/h3&gt;
+
+&lt;p&gt;本站支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+    &amp;lt;tr&amp;gt;
+        &amp;lt;th rowspan=&quot;2&quot;&amp;gt;值班人员&amp;lt;/th&amp;gt;
+        &amp;lt;th&amp;gt;星期一&amp;lt;/th&amp;gt;
+        &amp;lt;th&amp;gt;星期二&amp;lt;/th&amp;gt;
+        &amp;lt;th&amp;gt;星期三&amp;lt;/th&amp;gt;
+    &amp;lt;/tr&amp;gt;
+    &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;李强&amp;lt;/td&amp;gt;
+        &amp;lt;td&amp;gt;张明&amp;lt;/td&amp;gt;
+        &amp;lt;td&amp;gt;王平&amp;lt;/td&amp;gt;
+    &amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th rowspan=&quot;2&quot;&gt;值班人员&lt;/th&gt;
+        &lt;th&gt;星期一&lt;/th&gt;
+        &lt;th&gt;星期二&lt;/th&gt;
+        &lt;th&gt;星期三&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李强&lt;/td&gt;
+        &lt;td&gt;张明&lt;/td&gt;
+        &lt;td&gt;王平&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;15-内嵌图标&quot;&gt;15. 内嵌图标&lt;/h3&gt;
+
+&lt;p&gt;本站的图标系统对外开放，在文档中输入&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;i class=&quot;icon-weibo&quot;&amp;gt;&amp;lt;/i&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;即显示微博的图标： &lt;i class=&quot;icon-weibo icon-2x&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;替换 上述 &lt;code class=&quot;highlighter-rouge&quot;&gt;i 标签&lt;/code&gt; 内的 &lt;code class=&quot;highlighter-rouge&quot;&gt;icon-weibo&lt;/code&gt; 以显示不同的图标，例如：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;i class=&quot;icon-renren&quot;&amp;gt;&amp;lt;/i&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;即显示人人的图标： &lt;i class=&quot;icon-renren icon-2x&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;更多的图标和玩法可以参看 &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/3.2.1/icons/&quot;&gt;font-awesome&lt;/a&gt; 官方网站。&lt;/p&gt;
+
+&lt;h3 id=&quot;16-待办事宜-todo-列表&quot;&gt;16. 待办事宜 Todo 列表&lt;/h3&gt;
+
+&lt;p&gt;使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法，例如：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [ ] **Cmd Markdown 开发**
+    - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+    - [ ] 支持以 PDF 格式导出文稿
+    - [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
+    - [x] 改进 LaTex 功能
+        - [x] 修复 LaTex 公式渲染问题
+        - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
+- [ ] **七月旅行准备**
+    - [ ] 准备邮轮上需要携带的物品
+    - [ ] 浏览日本免税店的物品
+    - [x] 购买蓝宝石公主号七月一日的船票
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;对应显示如下待办事宜 Todo 列表：&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Cmd Markdown 开发&lt;/strong&gt;
+    &lt;ul class=&quot;task-list&quot;&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;支持以 PDF 格式导出文稿&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;新增Todo列表功能 &lt;a href=&quot;https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments&quot;&gt;语法参考&lt;/a&gt;&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;改进 LaTex 功能
+        &lt;ul class=&quot;task-list&quot;&gt;
+          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;修复 LaTex 公式渲染问题&lt;/li&gt;
+          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;新增 LaTex 公式编号功能 &lt;a href=&quot;http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers&quot;&gt;语法参考&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;七月旅行准备&lt;/strong&gt;
+    &lt;ul class=&quot;task-list&quot;&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;准备邮轮上需要携带的物品&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;浏览日本免税店的物品&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;购买蓝宝石公主号七月一日的船票&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:footnote&quot;&gt;
+      &lt;p&gt;这是一个 &lt;em&gt;注脚&lt;/em&gt; 的 &lt;strong&gt;文本&lt;/strong&gt;。 &lt;a href=&quot;#fnref:footnote&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:footnote2&quot;&gt;
+      &lt;p&gt;这是另一个 &lt;em&gt;注脚&lt;/em&gt; 的 &lt;strong&gt;文本&lt;/strong&gt;。 &lt;a href=&quot;#fnref:footnote2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>YonneLee</name></author><category term="Markdown" /><category term="Markdown" /><summary type="html"></summary></entry><entry><title type="html">HTTP状态码</title><link href="http://localhost:4000/2018/05/09/Http%E7%8A%B6%E6%80%81%E7%A0%81/" rel="alternate" type="text/html" title="HTTP状态码" /><published>2018-05-09T00:00:00+08:00</published><updated>2018-05-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/09/Http%E7%8A%B6%E6%80%81%E7%A0%81</id><content type="html" xml:base="http://localhost:4000/2018/05/09/Http%E7%8A%B6%E6%80%81%E7%A0%81/">&lt;p&gt;HTTP状态码：&lt;/p&gt;
+
+&lt;p&gt;https://www.runoob.com/http/http-status-codes.html&lt;/p&gt;</content><author><name>YonneLee</name></author><category term="HTTP" /><category term="HTTP" /><summary type="html">HTTP状态码： https://www.runoob.com/http/http-status-codes.html</summary></entry><entry><title type="html">vue通信及组件之间传值</title><link href="http://localhost:4000/2018/04/28/vue%E9%80%9A%E4%BF%A1%E5%8F%8A%E7%BB%84%E4%BB%B6%E4%B9%8B%E9%97%B4%E4%BC%A0%E5%80%BC/" rel="alternate" type="text/html" title="vue通信及组件之间传值" /><published>2018-04-28T00:00:00+08:00</published><updated>2018-04-28T00:00:00+08:00</updated><id>http://localhost:4000/2018/04/28/vue%E9%80%9A%E4%BF%A1%E5%8F%8A%E7%BB%84%E4%BB%B6%E4%B9%8B%E9%97%B4%E4%BC%A0%E5%80%BC</id><content type="html" xml:base="http://localhost:4000/2018/04/28/vue%E9%80%9A%E4%BF%A1%E5%8F%8A%E7%BB%84%E4%BB%B6%E4%B9%8B%E9%97%B4%E4%BC%A0%E5%80%BC/">&lt;p&gt;常用 vue 通信大概有这几种方式进行：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;组件间的父子之间的传值&lt;/li&gt;
+  &lt;li&gt;组件间的子父之间的传值&lt;/li&gt;
+  &lt;li&gt;非组件间的组件间的传值（简称：EventBus）&lt;/li&gt;
+  &lt;li&gt;sessionStorage 缓存传值&lt;/li&gt;
+  &lt;li&gt;路由带参数跳转进行传值&lt;/li&gt;
+  &lt;li&gt;vuex 进行传值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;组件间的父子之间的传值&quot;&gt;组件间的父子之间的传值&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;思路：父组件调用子组件 dom 位置声明一个名称，然后在子组件接收这名称，便可直接调用。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;父组件（谁是父组件个人理解：谁引用谁的组件，谁就是父组件）：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/26efadf3709bf05d062a790d02a8f31b89b96956/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d623332323530363632333533643435632e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p1&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;子组件：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/54e8d2819fd0b54b8671df94969cd12b8a6937b0/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d333837363963363235363665386662352e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;组件间的子父之间的传值&quot;&gt;组件间的子父之间的传值&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;思路：在子组件通过触发一个事件带值，让父组件接受这个事件，解析这个值&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;子组件：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/3c3bfbaa2ea0e746a508b89bf455f83bef5ad316/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d353638643934306335376666373063312e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p3&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;父组件：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/c859749eec1c72eedaaca0607b162fbdc07c4938/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d343964653533376232656662376536342e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p4&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;非组件间的组件间的传值简称eventbus&quot;&gt;非组件间的组件间的传值（简称：EventBus）&lt;/h2&gt;
+
+&lt;p&gt;先用例子来解释下组件间的关联：组件 A 比作一个路由器，通过中继器 (eventBus.js) 让其他房子接收到信号（组件B）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;思路：首先在src目录下创建一个eventBus.js文件，复制这行代码进去&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vue&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'vue'&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// 实例&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;组件A：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/94bc2eae2240d26d3b1273a4fc23241925cf3e62/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d326361313836323030346532663234662e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p5&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;组件 B：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/2f6fa3509bfd99e936207e5460407198cc3804c9/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d343632623764373161326562383232362e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;效果展示如下:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/fffa910ca560c667f3e99efb5f0ac22bc3e06dda/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d376230306462306533333436383137312e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/0e1d5d644da09ae76bd0750cac70d42cf08229c8/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d313165353738653733663031626632332e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p8&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sessionstorage-缓存&quot;&gt;sessionStorage 缓存&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;组件 A：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/40da530008278a537d9c3d67196b066d2d23114f/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d386531386139653965306334333030382e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p9&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;组件 B：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/f02c6a48a94850d083fca9e48594e50850b78c1e/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d636638356638376239326539386566392e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p10&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;路由带参数跳转&quot;&gt;路由带参数跳转&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;组件 A：有路由默认的页面&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/a240c0d90dbe0fe999f7c66348e47b9377c0d9eb/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d316562333030353734393534623564372e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;11&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;组件 B：路由其他页面 children&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/bb2590cd81f9e826fd05745f1e0a92530741371f/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d663161383934643364643937333639342e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;效果如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/6efadd538fe3863d4ec5a3f836c27d3ca77b229e/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d636233313834653530666432373133662e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p13&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/dc7016bf225f37c9b45b81ed0673ed5f316a7040/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363230363931312d646263343434383030653031353131612e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430&quot; alt=&quot;p14&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;vuex-主要做数据交互维护公共状态或数据&quot;&gt;vuex 主要做数据交互，维护公共状态或数据&lt;/h2&gt;
+
+&lt;p&gt;官方网站：&lt;a href=&quot;https://vuex.vuejs.org/zh/&quot;&gt;Vuex&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;多看几遍这图，vuex 基本就会使用，多加运用就会更加熟练。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://vuex.vuejs.org/vuex.png&quot; alt=&quot;p15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;src下创建一个store的文件夹，里面创建index.js文件&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vue&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'vue'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vuex&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'vuex'&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Vue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Vuex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vuex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Store&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+   &lt;span class=&quot;na&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;na&quot;&gt;city&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;上海&quot;&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+ 
+   &lt;span class=&quot;na&quot;&gt;actions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;nx&quot;&gt;handleCity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;city&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;// console.log(ctx, city)&lt;/span&gt;
+       &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;commit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;handleCity&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;city&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;mutations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;nx&quot;&gt;handleCity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;city&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;city&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;city&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;某文件触发事件&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;handleCityClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;city&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$store&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;handleCity&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;北京&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;展示页面&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;致谢&quot;&gt;致谢&lt;/h2&gt;
+
+&lt;p&gt;本文摘抄至：&lt;a href=&quot;https://blog.csdn.net/weihaifeng163/article/details/88338822&quot;&gt;vue通信及组件之间传值&lt;/a&gt;&lt;/p&gt;</content><author><name>YonneLee</name></author><category term="vue" /><category term="vue" /><summary type="html">常用 vue 通信大概有这几种方式进行： 组件间的父子之间的传值 组件间的子父之间的传值 非组件间的组件间的传值（简称：EventBus） sessionStorage 缓存传值 路由带参数跳转进行传值 vuex 进行传值</summary></entry><entry><title type="html">RESTful API 规范</title><link href="http://localhost:4000/2018/03/09/RESTful-API%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/" rel="alternate" type="text/html" title="RESTful API 规范" /><published>2018-03-09T00:00:00+08:00</published><updated>2018-03-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/09/RESTful%20API%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97</id><content type="html" xml:base="http://localhost:4000/2018/03/09/RESTful-API%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/">&lt;p&gt;HTTP状态码：&lt;/p&gt;
+
+&lt;p&gt;摘抄至：&lt;/p&gt;
+
+&lt;p&gt;http://www.ruanyifeng.com/blog/2014/05/restful_api.html&lt;/p&gt;</content><author><name>YonneLee</name></author><category term="Web" /><category term="Web" /><category term="RESTful" /><summary type="html">HTTP状态码： 摘抄至： http://www.ruanyifeng.com/blog/2014/05/restful_api.html</summary></entry><entry><title type="html">Git简单使用</title><link href="http://localhost:4000/2018/03/02/Git%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/" rel="alternate" type="text/html" title="Git简单使用" /><published>2018-03-02T00:00:00+08:00</published><updated>2018-03-02T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/02/Git%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2018/03/02/Git%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/">&lt;p&gt;Git现在已经被很多公司广泛的使用。下面是一些Git一些常用的命令&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;克隆&quot;&gt;克隆&lt;/h2&gt;
+
+&lt;p&gt;git clone ‘仓库地址’&lt;/p&gt;
+
+&lt;h2 id=&quot;添加当前目录的所有文件到暂存区&quot;&gt;添加当前目录的所有文件到暂存区&lt;/h2&gt;
+
+&lt;p&gt;git add .&lt;/p&gt;
+
+&lt;h2 id=&quot;提交暂存区到仓库区&quot;&gt;提交暂存区到仓库区&lt;/h2&gt;
+
+&lt;p&gt;git commit -m [message]&lt;/p&gt;
+
+&lt;h2 id=&quot;列出所有本地分支&quot;&gt;列出所有本地分支&lt;/h2&gt;
+
+&lt;p&gt;git branch&lt;/p&gt;
+
+&lt;h2 id=&quot;列出所有远程分支&quot;&gt;列出所有远程分支&lt;/h2&gt;
+
+&lt;p&gt;git branch -r&lt;/p&gt;
+
+&lt;h2 id=&quot;列出所有本地分支和远程分支&quot;&gt;列出所有本地分支和远程分支&lt;/h2&gt;
+
+&lt;p&gt;git branch -a&lt;/p&gt;
+
+&lt;h2 id=&quot;新建一个分支但依然停留在当前分支&quot;&gt;新建一个分支，但依然停留在当前分支&lt;/h2&gt;
+
+&lt;p&gt;git branch [branch-name]&lt;/p&gt;
+
+&lt;h2 id=&quot;新建一个分支并切换到该分支&quot;&gt;新建一个分支，并切换到该分支&lt;/h2&gt;
+
+&lt;p&gt;git checkout -b [branch]&lt;/p&gt;
+
+&lt;h2 id=&quot;切换到指定分支并更新工作区&quot;&gt;切换到指定分支，并更新工作区&lt;/h2&gt;
+
+&lt;p&gt;git checkout [branch-name]&lt;/p&gt;
+
+&lt;h2 id=&quot;删除分支&quot;&gt;删除分支&lt;/h2&gt;
+
+&lt;p&gt;git branch -d [branch-name]&lt;/p&gt;
+
+&lt;h2 id=&quot;显示有变更的文件&quot;&gt;显示有变更的文件&lt;/h2&gt;
+
+&lt;p&gt;git status&lt;/p&gt;
+
+&lt;h2 id=&quot;显示当前分支的版本历史&quot;&gt;显示当前分支的版本历史&lt;/h2&gt;
+
+&lt;p&gt;git log&lt;/p&gt;
+
+&lt;h2 id=&quot;恢复暂存区的指定文件到工作区&quot;&gt;恢复暂存区的指定文件到工作区&lt;/h2&gt;
+
+&lt;p&gt;git checkout [file]&lt;/p&gt;
+
+&lt;h2 id=&quot;恢复暂存区的所有文件到工作区&quot;&gt;恢复暂存区的所有文件到工作区&lt;/h2&gt;
+
+&lt;p&gt;$ git checkout .&lt;/p&gt;</content><author><name>YonneLee</name></author><category term="Git技巧" /><category term="Git" /><summary type="html">Git现在已经被很多公司广泛的使用。下面是一些Git一些常用的命令</summary></entry><entry><title type="html">16款优秀的Vue UI组件库推荐</title><link href="http://localhost:4000/2018/02/28/16%E6%AC%BE%E4%BC%98%E7%A7%80%E7%9A%84Vue-UI%E7%BB%84%E4%BB%B6%E5%BA%93%E6%8E%A8%E8%8D%90/" rel="alternate" type="text/html" title="16款优秀的Vue UI组件库推荐" /><published>2018-02-28T00:00:00+08:00</published><updated>2018-02-28T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/28/16%E6%AC%BE%E4%BC%98%E7%A7%80%E7%9A%84Vue%20UI%E7%BB%84%E4%BB%B6%E5%BA%93%E6%8E%A8%E8%8D%90</id><content type="html" xml:base="http://localhost:4000/2018/02/28/16%E6%AC%BE%E4%BC%98%E7%A7%80%E7%9A%84Vue-UI%E7%BB%84%E4%BB%B6%E5%BA%93%E6%8E%A8%E8%8D%90/">&lt;p&gt;Vue 是一个轻巧、高性能、可组件化的MVVM库，API简洁明了，上手快。从Vue推出以来，得到众多Web开发者的认可。
+在公司的Web前端项目开发中，多个项目采用基于Vue的UI组件框架开发，并投入正式使用。
+开发团队在使用Vue.js框架和UI组件库以后，开发效率大大提高，自己写的代码也少了，很多界面效果组件已经封装好了。
+在选择Vue UI组件库的过程中，通过GitHub上根据star数量、文档丰富程度、更新的频率以及维护等因素，也收集整理了一些优秀的Vue UI组件库。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;PS：国内的UI组件大部分都只有一部分的，常用的头部导航，底部导航，listview，grid表格很多都是没有的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;后面才发现，基于Vue的Quasar Framework 介绍 这个框架UI组件很全面，准备下次使用这个框架了&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;基于Vue的Quasar Framework 中文网
+http://www.quasarchs.com/&lt;/p&gt;
+
+&lt;p&gt;quasarframework/quasar: Quasar Framework
+https://github.com/quasarframework/quasar&lt;/p&gt;
+
+&lt;p&gt;Quasar（发音为/kweɪ.zɑɹ/)是MIT许可的开源框架（基于Vue），可帮助Web开发人员创建：
+响应式网站
+PWA（Progressive Web App）
+通过Apache Cordova构建移动APP（Android，iOS，…）
+多平台桌面应用程序（使用Electron）
+Quasar允许开发人员编写一次代码，然后使用相同的代码库同时部署为网站、PWA、Mobile App和Electron App。使用最先进的CLI设计应用程序，并提供精心编写，速度非常快的Quasar Web组件。&lt;/p&gt;
+
+&lt;p&gt;当使用Quasar时，你不需要像Hammerjs，Momentjs或Bootstrap这样的额外重型库。它拥有这些功能，而且体积很小！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-iview-ui组件库&quot;&gt;1、 iView UI组件库&lt;/h2&gt;
+
+&lt;p&gt;iView 是一套基于 Vue.js 的开源 UI 组件库，主要服务于 PC 界面的中后台产品。iView的组件还是比较齐全的，更新也很快，文档写得很详细。有公司团队维护，比较可靠的Vue UI组件框架。iView生态也做得很好，还有开源了一个iView Admin，做后台非常方便。官网上介绍，iView已经应用在TalkingData、阿里巴巴、百度、腾讯、今日头条、京东、滴滴出行、美团、新浪、联想等大型公司的产品中。
+iView官网：https://www.iviewui.com/&lt;/p&gt;
+
+&lt;h2 id=&quot;2vux-ui组件库&quot;&gt;2、Vux UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Vux是基于WeUI和Vue2.x开发的移动端UI组件库，主要服务于微信页面。Vux的定位已经很明确了，一是：Vue移动端UI组件库，二是：WeUI的基础样式库。Vux的组件涵盖了所有的WeUI的内容，还扩展了一些常用的组件。比如：Sticky、timeline、v-chart、XCircle。Vux是个人维护的。但是GitHub上star还是很高的，达到13k。在GitHub上看到对issue的关闭还是很迅速的。Vux文档基本的组件用法和效果都讲解到位了。在vux官网上也展示了很多Vux的使用案例。在微信页面开发中，基本没有太多的bug，开发还是比较顺手的。
+Vux官网：https://vux.li/&lt;/p&gt;
+
+&lt;h2 id=&quot;3element-ui组件库&quot;&gt;3、Element UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。Element是饿了么前端开源维护的Vue UI组件库，更新频率还是很高的，基本一周到半个月都会发布一个新版本。组件齐全，基本涵盖后台所需的所有组件，文档讲解详细，例子也很丰富。没有实际使用过，网上的Element教程和文章比较多。Element应该是一个质量比较高的Vue UI组件库。
+Element官网：http://element.eleme.io/#/zh-CN&lt;/p&gt;
+
+&lt;h2 id=&quot;4mint-ui组件库&quot;&gt;4、Mint UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Mint UI基于 Vue.js 的移动端组件库，同样出自饿了么前端的项目。Mint UI是真正意义上的按需加载组件。可以只加载声明过的组件及其样式文件。Mint UI 采用 CSS3 处理各种动效，避免浏览器进行不必要的重绘和重排，从而使用户获得流畅顺滑的体验。网上的视频教程很多都是基于Mint UI来讲的，开发移动端web项目还是很方便，文档也很简介明了。很多页面Mint UI组件都已经封装好，基本可以照着例子写，简单的调整一下就可以实现。不过，在GitHub上看最后一次代码提交在2018年1月16日。不知道是项目比较稳定没有更新，还是项目有被废弃的可能。
+Mint UI官网：http://mint-ui.github.io/#!/zh-cn&lt;/p&gt;
+
+&lt;h2 id=&quot;5bootstrap-vue-ui组件库&quot;&gt;5、Bootstrap-Vue UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Bootstrap-VUE提供了基于vue2的Bootstrap V4组件和网格系统的实现，完成了广泛和自动化的WAI ARA可访问性标记。Bootstrap 4是最新发布的版本，与 Bootstrap3 相比拥有了更多的具体的类以及把一些有关的部分变成了相关的组件。同时 Bootstrap.min.css 的体积减少了40%以上。Bootstrap4 放弃了对 IE8 以及 iOS 6 的支持，现在仅仅支持 IE9 以上 以及 iOS 7 以上版本的浏览器。想当初刚流行响应式网站的时候，Bootstrap是世界上最受欢迎的建立移动优先网站的框架，Bootstrap可以说风靡全球。就算放在现在很多企业网站都是采用Bootstrap做的响应式。Bootstrap-Vue可以让你在Vue中也实现Bootstrap的效果。
+Bootstrap-Vue官网：https://bootstrap-vue.js.org/&lt;/p&gt;
+
+&lt;h2 id=&quot;6ant-design-vue-ui组件库&quot;&gt;6、Ant Design Vue UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Ant Design Vue是 Ant Design 3.X 的 Vue 实现，开发和服务于企业级后台产品。在GitHub上可以找到几个Ant Design的Vue组件。不过相比较而言，Ant Design Vue更胜一筹。Ant Design Vue共享Ant Design of React设计工具体系，实现了所有Ant Design of React的组件，支持现代浏览器和 IE9 及以上（需要 polyfills）。可以让熟悉Ant Design的在使用Vue时，很容易的上手。
+Ant Design Vue官网：https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/&lt;/p&gt;
+
+&lt;h2 id=&quot;7at-ui-ui组件库&quot;&gt;7、AT-UI UI组件库&lt;/h2&gt;
+
+&lt;p&gt;AT-UI 是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品，支持现代浏览器和 IE9 及以上。AT-UI 更加精简，实现了后台常用的组件。
+AT_UI官网：https://at-ui.github.io/at-ui/#/zh&lt;/p&gt;
+
+&lt;h2 id=&quot;8vant-ui组件库&quot;&gt;8、Vant UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Vant是一个轻量、可靠的移动端 Vue 组件库。Vant是有赞团队开源的，主要维护也是有赞团队。Vant Weapp 是有赞移动端组件库 Vant 的小程序版本，两者基于相同的视觉规范，提供一致的 API 接口，助力开发者快速搭建小程序应用。截止到目前，Vant已经开源了50+ 个经过有赞线上业务检验的组件。比如：、AddressEdit 地址编辑、AddressList 地址列表、Area 省市区选择、Card 卡片、Contact 联系人、Coupon 优惠券、GoodsAction 商品页行动点、SubmitBar 提交订单栏、Sku 商品规格弹层。如果做商城的，不太在意界面，实现业务逻辑的话，用Vant组件库开发还是很快的。
+Vant官网：https://youzan.github.io/vant/#/zh-CN/intro&lt;/p&gt;
+
+&lt;h2 id=&quot;9cube-ui-ui组件库&quot;&gt;9、cube-ui UI组件库&lt;/h2&gt;
+
+&lt;p&gt;cube-ui 是基于 Vue.js 实现的精致移动端组件库。由滴滴内部组件库精简提炼而来，经历了业务一年多的考验，并且每个组件都有充分单元测试，为后续集成提供保障。在交互体验方面追求极致。遵循统一的设计交互标准，高度还原设计效果；接口标准化，统一规范使用方式，开发更加简单高效。支持按需引入和后编译，轻量灵活；扩展性强，可以方便地基于现有组件实现二次开发。
+cube-ui官网：https://didi.github.io/cube-ui/#/zh-CN&lt;/p&gt;
+
+&lt;h2 id=&quot;10muse-ui-ui组件库&quot;&gt;10、Muse-UI UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Muse-UI基于 Vue 2.0 优雅的 Material Design UI 组件库。Muse UI 拥有40多个UI 组件，用于适应不同业务环境。Muse UI 仅需少量代码即可完成主题样式替换。Muse UI 可用于开发的复杂单页应用
+Muse-UI官网：https://muse-ui.org/#/zh-CN&lt;/p&gt;
+
+&lt;h2 id=&quot;11n3-components-ui组件库&quot;&gt;11、N3-components UI组件库&lt;/h2&gt;
+
+&lt;p&gt;N3组件库是基于Vue.js构建的，让前端工程师和全栈工程师能快速构建页面和应用。N3-components超过60个组件 组件列表、自定义样式、支持多种模化范式（UMD）、使用ES6进行开发。
+N3官网：https://n3-components.github.io/N3-components/component.html&lt;/p&gt;
+
+&lt;h2 id=&quot;12mand-mobile&quot;&gt;12、Mand Mobile&lt;/h2&gt;
+
+&lt;p&gt;Mand Mobile是面向金融场景的Vue移动端UI组件库，丰富、灵活、实用，快速搭建优质的金融类产品，让复杂的金融场景变简单。Mand Mobile含有丰富的组件30+的基础组件，覆盖金融场景，极高的易用性组件均有详细说明文档、案例演示，汲取最前沿技术，组件化轻量化实现，兼顾稳定和品质，努力实现金融场景的全覆盖。
+Mand Mobile官网：https://didi.github.io/mand-mobile/#/zh-CN/home&lt;/p&gt;
+
+&lt;p&gt;下面是1.x的文档和演示地址：（文档地址已经迁移了）&lt;/p&gt;
+
+&lt;p&gt;https://mand-mobile.github.io/1x-doc/
+https://mand-mobile.github.io/2x-doc/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;之前的地址打不开了&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;13we-vue-ui组件库&quot;&gt;13、we-vue UI组件库&lt;/h2&gt;
+
+&lt;p&gt;we-vue 是一套基于 Vue.js 的移动关组件库，结合 weui.css 样式库，封装了一系列组件，非常适于微信公众号等移动端开发。we-vue 包含35+ 个组件，单元测试覆盖率超 98%，支持 babel-plugin-import，完善的在线文档，详细的在线示例。
+we-vue官网：https://wevue.org/&lt;/p&gt;
+
+&lt;h2 id=&quot;14veui-ui组件库&quot;&gt;14、veui UI组件库&lt;/h2&gt;
+
+&lt;p&gt;veui是一个由百度EFE team开发的Vue企业级UI组件库。目前文档还没有，只有demo。
+GitHub上说是正在进行的一项工作。那我们就耐心等待吧。
+veui官网：https://ecomfe.github.io/veui/components/#/&lt;/p&gt;
+
+&lt;h2 id=&quot;15semantic-ui-vue-ui组件库&quot;&gt;15、Semantic-UI-Vue UI组件库&lt;/h2&gt;
+
+&lt;p&gt;Semantic-UI-Vue是基于 Vue.js对Semantic-UI 框架的实现。
+Semantic作为一款开发框架，帮助开发者使用对人类友好的HTML语言构建优雅的响应式布局。Semantic-UI-Vue提供了一个类似于 Semantic-UI 的 API 以及一组可定制的主题。
+Semantic-UI-Vue官网：https://semantic-ui-vue.github.io/#/
+在选择框架的时候一定要根据实际Web开发情况和团队的熟悉程度来选择。一个好的UI组件库对一个Web项目来说很重要&lt;/p&gt;
+
+&lt;h2 id=&quot;16vuejs-material-component-framework--vuetifyjs&quot;&gt;16.Vue.js Material Component Framework — Vuetify.js&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vuetifyjs.com/zh-Hans&quot;&gt;&lt;em&gt;https://vuetifyjs.com/zh-Hans&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vuetify完全根据Material Design规范开发。每个组件都是手工制作的，为您的下一个伟大的应用程序带来最好的UI工具。开发并没有停留在Google规范中的核心组件上。通过社区成员和赞助商的支持，更多的组件将被设计并提供给大家享受。&lt;/p&gt;
+
+&lt;p&gt;这个主要是国外比较流行的vue ui组件，各种功能都有，有中文翻译的，但有些还是英文的，翻译得不是很好&lt;/p&gt;
+
+&lt;p&gt;PS：国内的UI组件大部分都只有一部分的，常用的头部导航，底部导航，listview，grid表格很多都是没有的。&lt;/p&gt;
+
+&lt;h2 id=&quot;致谢&quot;&gt;致谢&lt;/h2&gt;
+
+&lt;p&gt;本文摘至：&lt;a href=&quot;https://www.cnblogs.com/zdz8207/p/vue-ui-framework.html&quot;&gt;16款优秀的Vue UI组件库推荐&lt;/a&gt;&lt;/p&gt;</content><author><name>YonneLee</name></author><category term="vue" /><category term="vue" /><summary type="html">Vue 是一个轻巧、高性能、可组件化的MVVM库，API简洁明了，上手快。从Vue推出以来，得到众多Web开发者的认可。 在公司的Web前端项目开发中，多个项目采用基于Vue的UI组件框架开发，并投入正式使用。 开发团队在使用Vue.js框架和UI组件库以后，开发效率大大提高，自己写的代码也少了，很多界面效果组件已经封装好了。 在选择Vue UI组件库的过程中，通过GitHub上根据star数量、文档丰富程度、更新的频率以及维护等因素，也收集整理了一些优秀的Vue UI组件库。</summary></entry><entry><title type="html">js对象获取属性的几种方法</title><link href="http://localhost:4000/2018/02/11/js%E5%AF%B9%E8%B1%A1%E8%8E%B7%E5%8F%96%E5%B1%9E%E6%80%A7%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/" rel="alternate" type="text/html" title="js对象获取属性的几种方法" /><published>2018-02-11T00:00:00+08:00</published><updated>2018-02-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/11/js%E5%AF%B9%E8%B1%A1%E8%8E%B7%E5%8F%96%E5%B1%9E%E6%80%A7%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95</id><content type="html" xml:base="http://localhost:4000/2018/02/11/js%E5%AF%B9%E8%B1%A1%E8%8E%B7%E5%8F%96%E5%B1%9E%E6%80%A7%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/">&lt;p&gt;js 如何获取对象属性。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;通过--方式获取属性值-前提对象的key是已知常量&quot;&gt;通过 . 方式获取属性值 前提对象的key是已知常量&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;book&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;bookName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;性能优化&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'100'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bookName&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;通过--获取属性值-key是未知的&quot;&gt;通过 [] 获取属性值 key是未知的&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;book&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;bookName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;性能优化&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'100'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;keyName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'bookName'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;keyName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;objectkeys方式&quot;&gt;Object.keys()方式&lt;/h2&gt;
+
+&lt;p&gt;这是对象内置属性方法: &lt;strong&gt;Object.keys()&lt;/strong&gt;；该方法返回一个数组，数组内包括 &lt;strong&gt;对象内可枚举属性以及方法名称&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JS&quot;&gt;const fruits = {&quot;apple&quot;: 3, &quot;pear&quot;: 2}
+const keys= Object.keys(fruits);
+console.log(keys); // 输出 keys [&quot;apple&quot;, &quot;pear&quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;objectgetownpropertynames&quot;&gt;Object.getOwnPropertyNames()&lt;/h2&gt;
+
+&lt;p&gt;方法返回一个 &lt;strong&gt;指定对象&lt;/strong&gt; 所有自身属性的属性名（包括&lt;strong&gt;不可枚举属性&lt;/strong&gt;, 但不包括 Symbol 值作为名称的属性）组成的&lt;strong&gt;数组.&lt;/strong&gt;（&lt;strong&gt;不可枚举: 比如属性是一个js方法&lt;/strong&gt;）&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fruits&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;apple&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;pear&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getOwnPropertyNames&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fruits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;　　&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// 输出 keys [&quot;apple&quot;, &quot;pear&quot;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;forin&quot;&gt;for…in&lt;/h2&gt;
+
+&lt;p&gt;最原始的 &lt;strong&gt;for…in&lt;/strong&gt; 循环&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fruits&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;apple&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;pear&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fruits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;// 输出 keys [&quot;apple&quot;, &quot;pear&quot;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>YonneLee</name></author><category term="js" /><category term="js" /><summary type="html">js 如何获取对象属性。</summary></entry></feed>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    <entry>
+      <title><![CDATA[Markdown 简明语法手册]]></title>
+      <url>/2018/12/11/MarkDown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/</url>
+      <content type="text"><![CDATA[Markdown 简明语法手册1. 斜体和粗体使用 * 和 ** 表示斜体和粗体。示例：这是 斜体，这是 粗体。2. 分级标题使用 === 表示一级标题，使用 — 表示二级标题。示例：这是一个一级标题============================这是一个二级标题----------------------------### 这是一个三级标题你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。3. 外链接使用 [描述](链接地址) 为文字增加外链接。示例：这是去往 本人博客 的链接。4. 无序列表使用 *，+，- 表示无序列表。示例：  无序列表项 一  无序列表项 二  无序列表项 三5. 有序列表使用数字和点表示有序列表。示例：  有序列表项 一  有序列表项 二  有序列表项 三6. 文字引用使用 &gt; 表示文字引用。示例：  野火烧不尽，春风吹又生。7. 行内代码块使用 `代码` 表示行内代码块。示例：让我们聊聊 html。8.  代码块使用 四个缩进空格 表示代码块。示例：这是一个代码块，此行左侧有四个不可见的空格。9.  插入图像使用 ![描述](图片链接地址) 插入图像。示例：Markdown 高阶语法手册1. 内容目录在段落中填写 [TOC] 或者{:toc} 以显示全文内容的目录结构。[TOC]2. 标签分类在编辑区任意行的列首位置输入以下代码给文稿标签：标签： 数学 英语 Markdown或者Tags： 数学 英语 Markdown3. 删除线使用 ~~ 表示删除线。这是一段错误的文本。4. 注脚使用 [^keyword] 表示注脚。这是一个注脚1的样例。这是第二个注脚2的样例。5. LaTeX 公式$ 表示行内公式：质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。$$ 表示整行公式：访问 MathJax 参考更多使用方法。6. 加强的代码块支持四十一种编程语言的语法高亮的显示，行号显示。非代码示例：$ sudo apt-get install vim-gnomePython 示例：@requires_authorizationdef somefunc(param1='', param2=0):    '''A docstring'''    if param1 &gt; param2: # interesting        print 'Greater'    return (param2 - param1 + 1) or Noneclass SomeClass:    pass&gt;&gt;&gt; message = '''interpreter... prompt'''JavaScript 示例：/*** nth element in the fibonacci series.* @param n &gt;= 0* @return the nth element, &gt;= 0.*/function fib(n) {  var a = 1, b = 1;  var tmp;  while (--n &gt;= 0) {    tmp = a;    a += b;    b = tmp;  }  return a;}document.write(fib(10));7. 流程图示例st=&gt;start: Start:&gt;https://www.zybuluo.comio=&gt;inputoutput: verificationop=&gt;operation: Your Operationcond=&gt;condition: Yes or No?sub=&gt;subroutine: Your Subroutinee=&gt;endst-&gt;io-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;sub-&gt;io更多语法参考：流程图语法参考8. 序列图示例 1Alice-&gt;Bob: Hello Bob, how are you?Note right of Bob: Bob thinksBob--&gt;Alice: I am good thanks!示例 2Title: Here is a titleA-&gt;B: Normal lineB--&gt;C: Dashed lineC-&gt;&gt;D: Open arrowD--&gt;&gt;A: Dashed open arrow更多语法参考：序列图语法参考9. 甘特图甘特图内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。    title 项目开发流程    section 项目确定        需求分析       :a1, 2016-06-22, 3d        可行性报告     :after a1, 5d        概念验证       : 5d    section 项目实施        概要设计      :2016-07-05  , 5d        详细设计      :2016-07-08, 10d        编码          :2016-07-15, 10d        测试          :2016-07-22, 5d    section 发布验收        发布: 2d        验收: 3d更多语法参考：甘特图语法参考10. Mermaid 流程图    A[Hard edge] --&gt;|Link text| B(Round edge)    B --&gt; C{Decision}    C --&gt;|One| D[Result one]    C --&gt;|Two| E[Result two]更多语法参考：Mermaid 流程图语法参考11. Mermaid 序列图    Alice-&gt;John: Hello John, how are you?    loop every minute        John--&gt;Alice: Great!    end更多语法参考：Mermaid 序列图语法参考12. 表格支持            Markdown 制作表格使用      来分隔不同的单元格，使用 - 来分隔表头和其他行。      语法格式如下：|  表头   | 表头  ||  ----  | ----  || 单元格  | 单元格 || 单元格  | 单元格 |对齐方式我们可以设置表格的对齐方式：  -: 设置内容和标题栏居右对齐。  :- 设置内容和标题栏居左对齐。  :-: 设置内容和标题栏居中对齐。实例如下：| 左对齐 | 右对齐 | 居中对齐 || :-----| ----: | :----: || 单元格 | 单元格 | 单元格 || 单元格 | 单元格 | 单元格 |效果如下：            项目      价格      数量                  计算机      $1600      5              手机      $12      12              管线      $1      234      13. 定义型列表  名词 1  定义 1（左侧有一个可见的冒号和四个不可见的空格）  代码块 2  这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）    代码块（左侧有八个不可见的空格）      14. Html 标签本站支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：&lt;table&gt;    &lt;tr&gt;        &lt;th rowspan="2"&gt;值班人员&lt;/th&gt;        &lt;th&gt;星期一&lt;/th&gt;        &lt;th&gt;星期二&lt;/th&gt;        &lt;th&gt;星期三&lt;/th&gt;    &lt;/tr&gt;    &lt;tr&gt;        &lt;td&gt;李强&lt;/td&gt;        &lt;td&gt;张明&lt;/td&gt;        &lt;td&gt;王平&lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;            值班人员        星期一        星期二        星期三                李强        张明        王平    15. 内嵌图标本站的图标系统对外开放，在文档中输入&lt;i class="icon-weibo"&gt;&lt;/i&gt;即显示微博的图标： 替换 上述 i 标签 内的 icon-weibo 以显示不同的图标，例如：&lt;i class="icon-renren"&gt;&lt;/i&gt;即显示人人的图标： 更多的图标和玩法可以参看 font-awesome 官方网站。16. 待办事宜 Todo 列表使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法，例如：- [ ] **Cmd Markdown 开发**    - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率    - [ ] 支持以 PDF 格式导出文稿    - [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)    - [x] 改进 LaTex 功能        - [x] 修复 LaTex 公式渲染问题        - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)- [ ] **七月旅行准备**    - [ ] 准备邮轮上需要携带的物品    - [ ] 浏览日本免税店的物品    - [x] 购买蓝宝石公主号七月一日的船票对应显示如下待办事宜 Todo 列表：  Cmd Markdown 开发          改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率      支持以 PDF 格式导出文稿      新增Todo列表功能 语法参考      改进 LaTex 功能                  修复 LaTex 公式渲染问题          新增 LaTex 公式编号功能 语法参考                      七月旅行准备          准备邮轮上需要携带的物品      浏览日本免税店的物品      购买蓝宝石公主号七月一日的船票                  这是一个 注脚 的 文本。 &#8617;              这是另一个 注脚 的 文本。 &#8617;      ]]></content>
+      <categories>
+        
+          <category> Markdown </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> Markdown </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[HTTP状态码]]></title>
+      <url>/2018/05/09/Http%E7%8A%B6%E6%80%81%E7%A0%81/</url>
+      <content type="text"><![CDATA[HTTP状态码：https://www.runoob.com/http/http-status-codes.html]]></content>
+      <categories>
+        
+          <category> HTTP </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> HTTP </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[vue通信及组件之间传值]]></title>
+      <url>/2018/04/28/vue%E9%80%9A%E4%BF%A1%E5%8F%8A%E7%BB%84%E4%BB%B6%E4%B9%8B%E9%97%B4%E4%BC%A0%E5%80%BC/</url>
+      <content type="text"><![CDATA[常用 vue 通信大概有这几种方式进行：  组件间的父子之间的传值  组件间的子父之间的传值  非组件间的组件间的传值（简称：EventBus）  sessionStorage 缓存传值  路由带参数跳转进行传值  vuex 进行传值组件间的父子之间的传值思路：父组件调用子组件 dom 位置声明一个名称，然后在子组件接收这名称，便可直接调用。  父组件（谁是父组件个人理解：谁引用谁的组件，谁就是父组件）：  子组件：组件间的子父之间的传值思路：在子组件通过触发一个事件带值，让父组件接受这个事件，解析这个值  子组件：  父组件：非组件间的组件间的传值（简称：EventBus）先用例子来解释下组件间的关联：组件 A 比作一个路由器，通过中继器 (eventBus.js) 让其他房子接收到信号（组件B）思路：首先在src目录下创建一个eventBus.js文件，复制这行代码进去import Vue from 'vue'let connect = new Vue()    // 实例export default connect  组件A：  组件 B：效果展示如下:sessionStorage 缓存  组件 A：  组件 B：路由带参数跳转  组件 A：有路由默认的页面  组件 B：路由其他页面 children效果如下：vuex 主要做数据交互，维护公共状态或数据官方网站：Vuex多看几遍这图，vuex 基本就会使用，多加运用就会更加熟练。src下创建一个store的文件夹，里面创建index.js文件import Vue from 'vue'import Vuex from 'vuex'Vue.use(Vuex)export default new Vuex.Store({   state: {   city: "上海"   },    actions: {     handleCity(ctx, city) {   // console.log(ctx, city)       ctx.commit("handleCity", city)    }  },mutations: {     handleCity(state, city) {      state.city = city   }   }})某文件触发事件methods: {    handleCityClick(city) {      this.$store.dispatch("handleCity", "北京");    },展示页面&lt;h1&gt;&lt;/h1&gt;致谢本文摘抄至：vue通信及组件之间传值]]></content>
+      <categories>
+        
+          <category> vue </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> vue </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[RESTful API 规范]]></title>
+      <url>/2018/03/09/RESTful-API%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/</url>
+      <content type="text"><![CDATA[HTTP状态码：摘抄至：http://www.ruanyifeng.com/blog/2014/05/restful_api.html]]></content>
+      <categories>
+        
+          <category> Web </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> Web </tag>
+        
+          <tag> RESTful </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Git简单使用]]></title>
+      <url>/2018/03/02/Git%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</url>
+      <content type="text"><![CDATA[Git现在已经被很多公司广泛的使用。下面是一些Git一些常用的命令克隆git clone ‘仓库地址’添加当前目录的所有文件到暂存区git add .提交暂存区到仓库区git commit -m [message]列出所有本地分支git branch列出所有远程分支git branch -r列出所有本地分支和远程分支git branch -a新建一个分支，但依然停留在当前分支git branch [branch-name]新建一个分支，并切换到该分支git checkout -b [branch]切换到指定分支，并更新工作区git checkout [branch-name]删除分支git branch -d [branch-name]显示有变更的文件git status显示当前分支的版本历史git log恢复暂存区的指定文件到工作区git checkout [file]恢复暂存区的所有文件到工作区$ git checkout .]]></content>
+      <categories>
+        
+          <category> Git技巧 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> Git </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[16款优秀的Vue UI组件库推荐]]></title>
+      <url>/2018/02/28/16%E6%AC%BE%E4%BC%98%E7%A7%80%E7%9A%84Vue-UI%E7%BB%84%E4%BB%B6%E5%BA%93%E6%8E%A8%E8%8D%90/</url>
+      <content type="text"><![CDATA[Vue 是一个轻巧、高性能、可组件化的MVVM库，API简洁明了，上手快。从Vue推出以来，得到众多Web开发者的认可。在公司的Web前端项目开发中，多个项目采用基于Vue的UI组件框架开发，并投入正式使用。开发团队在使用Vue.js框架和UI组件库以后，开发效率大大提高，自己写的代码也少了，很多界面效果组件已经封装好了。在选择Vue UI组件库的过程中，通过GitHub上根据star数量、文档丰富程度、更新的频率以及维护等因素，也收集整理了一些优秀的Vue UI组件库。PS：国内的UI组件大部分都只有一部分的，常用的头部导航，底部导航，listview，grid表格很多都是没有的。后面才发现，基于Vue的Quasar Framework 介绍 这个框架UI组件很全面，准备下次使用这个框架了基于Vue的Quasar Framework 中文网http://www.quasarchs.com/quasarframework/quasar: Quasar Frameworkhttps://github.com/quasarframework/quasarQuasar（发音为/kweɪ.zɑɹ/)是MIT许可的开源框架（基于Vue），可帮助Web开发人员创建：响应式网站PWA（Progressive Web App）通过Apache Cordova构建移动APP（Android，iOS，…）多平台桌面应用程序（使用Electron）Quasar允许开发人员编写一次代码，然后使用相同的代码库同时部署为网站、PWA、Mobile App和Electron App。使用最先进的CLI设计应用程序，并提供精心编写，速度非常快的Quasar Web组件。当使用Quasar时，你不需要像Hammerjs，Momentjs或Bootstrap这样的额外重型库。它拥有这些功能，而且体积很小！1、 iView UI组件库iView 是一套基于 Vue.js 的开源 UI 组件库，主要服务于 PC 界面的中后台产品。iView的组件还是比较齐全的，更新也很快，文档写得很详细。有公司团队维护，比较可靠的Vue UI组件框架。iView生态也做得很好，还有开源了一个iView Admin，做后台非常方便。官网上介绍，iView已经应用在TalkingData、阿里巴巴、百度、腾讯、今日头条、京东、滴滴出行、美团、新浪、联想等大型公司的产品中。iView官网：https://www.iviewui.com/2、Vux UI组件库Vux是基于WeUI和Vue2.x开发的移动端UI组件库，主要服务于微信页面。Vux的定位已经很明确了，一是：Vue移动端UI组件库，二是：WeUI的基础样式库。Vux的组件涵盖了所有的WeUI的内容，还扩展了一些常用的组件。比如：Sticky、timeline、v-chart、XCircle。Vux是个人维护的。但是GitHub上star还是很高的，达到13k。在GitHub上看到对issue的关闭还是很迅速的。Vux文档基本的组件用法和效果都讲解到位了。在vux官网上也展示了很多Vux的使用案例。在微信页面开发中，基本没有太多的bug，开发还是比较顺手的。Vux官网：https://vux.li/3、Element UI组件库Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。Element是饿了么前端开源维护的Vue UI组件库，更新频率还是很高的，基本一周到半个月都会发布一个新版本。组件齐全，基本涵盖后台所需的所有组件，文档讲解详细，例子也很丰富。没有实际使用过，网上的Element教程和文章比较多。Element应该是一个质量比较高的Vue UI组件库。Element官网：http://element.eleme.io/#/zh-CN4、Mint UI组件库Mint UI基于 Vue.js 的移动端组件库，同样出自饿了么前端的项目。Mint UI是真正意义上的按需加载组件。可以只加载声明过的组件及其样式文件。Mint UI 采用 CSS3 处理各种动效，避免浏览器进行不必要的重绘和重排，从而使用户获得流畅顺滑的体验。网上的视频教程很多都是基于Mint UI来讲的，开发移动端web项目还是很方便，文档也很简介明了。很多页面Mint UI组件都已经封装好，基本可以照着例子写，简单的调整一下就可以实现。不过，在GitHub上看最后一次代码提交在2018年1月16日。不知道是项目比较稳定没有更新，还是项目有被废弃的可能。Mint UI官网：http://mint-ui.github.io/#!/zh-cn5、Bootstrap-Vue UI组件库Bootstrap-VUE提供了基于vue2的Bootstrap V4组件和网格系统的实现，完成了广泛和自动化的WAI ARA可访问性标记。Bootstrap 4是最新发布的版本，与 Bootstrap3 相比拥有了更多的具体的类以及把一些有关的部分变成了相关的组件。同时 Bootstrap.min.css 的体积减少了40%以上。Bootstrap4 放弃了对 IE8 以及 iOS 6 的支持，现在仅仅支持 IE9 以上 以及 iOS 7 以上版本的浏览器。想当初刚流行响应式网站的时候，Bootstrap是世界上最受欢迎的建立移动优先网站的框架，Bootstrap可以说风靡全球。就算放在现在很多企业网站都是采用Bootstrap做的响应式。Bootstrap-Vue可以让你在Vue中也实现Bootstrap的效果。Bootstrap-Vue官网：https://bootstrap-vue.js.org/6、Ant Design Vue UI组件库Ant Design Vue是 Ant Design 3.X 的 Vue 实现，开发和服务于企业级后台产品。在GitHub上可以找到几个Ant Design的Vue组件。不过相比较而言，Ant Design Vue更胜一筹。Ant Design Vue共享Ant Design of React设计工具体系，实现了所有Ant Design of React的组件，支持现代浏览器和 IE9 及以上（需要 polyfills）。可以让熟悉Ant Design的在使用Vue时，很容易的上手。Ant Design Vue官网：https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/7、AT-UI UI组件库AT-UI 是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品，支持现代浏览器和 IE9 及以上。AT-UI 更加精简，实现了后台常用的组件。AT_UI官网：https://at-ui.github.io/at-ui/#/zh8、Vant UI组件库Vant是一个轻量、可靠的移动端 Vue 组件库。Vant是有赞团队开源的，主要维护也是有赞团队。Vant Weapp 是有赞移动端组件库 Vant 的小程序版本，两者基于相同的视觉规范，提供一致的 API 接口，助力开发者快速搭建小程序应用。截止到目前，Vant已经开源了50+ 个经过有赞线上业务检验的组件。比如：、AddressEdit 地址编辑、AddressList 地址列表、Area 省市区选择、Card 卡片、Contact 联系人、Coupon 优惠券、GoodsAction 商品页行动点、SubmitBar 提交订单栏、Sku 商品规格弹层。如果做商城的，不太在意界面，实现业务逻辑的话，用Vant组件库开发还是很快的。Vant官网：https://youzan.github.io/vant/#/zh-CN/intro9、cube-ui UI组件库cube-ui 是基于 Vue.js 实现的精致移动端组件库。由滴滴内部组件库精简提炼而来，经历了业务一年多的考验，并且每个组件都有充分单元测试，为后续集成提供保障。在交互体验方面追求极致。遵循统一的设计交互标准，高度还原设计效果；接口标准化，统一规范使用方式，开发更加简单高效。支持按需引入和后编译，轻量灵活；扩展性强，可以方便地基于现有组件实现二次开发。cube-ui官网：https://didi.github.io/cube-ui/#/zh-CN10、Muse-UI UI组件库Muse-UI基于 Vue 2.0 优雅的 Material Design UI 组件库。Muse UI 拥有40多个UI 组件，用于适应不同业务环境。Muse UI 仅需少量代码即可完成主题样式替换。Muse UI 可用于开发的复杂单页应用Muse-UI官网：https://muse-ui.org/#/zh-CN11、N3-components UI组件库N3组件库是基于Vue.js构建的，让前端工程师和全栈工程师能快速构建页面和应用。N3-components超过60个组件 组件列表、自定义样式、支持多种模化范式（UMD）、使用ES6进行开发。N3官网：https://n3-components.github.io/N3-components/component.html12、Mand MobileMand Mobile是面向金融场景的Vue移动端UI组件库，丰富、灵活、实用，快速搭建优质的金融类产品，让复杂的金融场景变简单。Mand Mobile含有丰富的组件30+的基础组件，覆盖金融场景，极高的易用性组件均有详细说明文档、案例演示，汲取最前沿技术，组件化轻量化实现，兼顾稳定和品质，努力实现金融场景的全覆盖。Mand Mobile官网：https://didi.github.io/mand-mobile/#/zh-CN/home下面是1.x的文档和演示地址：（文档地址已经迁移了）https://mand-mobile.github.io/1x-doc/https://mand-mobile.github.io/2x-doc/之前的地址打不开了13、we-vue UI组件库we-vue 是一套基于 Vue.js 的移动关组件库，结合 weui.css 样式库，封装了一系列组件，非常适于微信公众号等移动端开发。we-vue 包含35+ 个组件，单元测试覆盖率超 98%，支持 babel-plugin-import，完善的在线文档，详细的在线示例。we-vue官网：https://wevue.org/14、veui UI组件库veui是一个由百度EFE team开发的Vue企业级UI组件库。目前文档还没有，只有demo。GitHub上说是正在进行的一项工作。那我们就耐心等待吧。veui官网：https://ecomfe.github.io/veui/components/#/15、Semantic-UI-Vue UI组件库Semantic-UI-Vue是基于 Vue.js对Semantic-UI 框架的实现。Semantic作为一款开发框架，帮助开发者使用对人类友好的HTML语言构建优雅的响应式布局。Semantic-UI-Vue提供了一个类似于 Semantic-UI 的 API 以及一组可定制的主题。Semantic-UI-Vue官网：https://semantic-ui-vue.github.io/#/在选择框架的时候一定要根据实际Web开发情况和团队的熟悉程度来选择。一个好的UI组件库对一个Web项目来说很重要16.Vue.js Material Component Framework — Vuetify.jshttps://vuetifyjs.com/zh-HansVuetify完全根据Material Design规范开发。每个组件都是手工制作的，为您的下一个伟大的应用程序带来最好的UI工具。开发并没有停留在Google规范中的核心组件上。通过社区成员和赞助商的支持，更多的组件将被设计并提供给大家享受。这个主要是国外比较流行的vue ui组件，各种功能都有，有中文翻译的，但有些还是英文的，翻译得不是很好PS：国内的UI组件大部分都只有一部分的，常用的头部导航，底部导航，listview，grid表格很多都是没有的。致谢本文摘至：16款优秀的Vue UI组件库推荐]]></content>
+      <categories>
+        
+          <category> vue </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> vue </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[js对象获取属性的几种方法]]></title>
+      <url>/2018/02/11/js%E5%AF%B9%E8%B1%A1%E8%8E%B7%E5%8F%96%E5%B1%9E%E6%80%A7%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
+      <content type="text"><![CDATA[js 如何获取对象属性。通过 . 方式获取属性值 前提对象的key是已知常量const book = { bookName: "性能优化", price: '100' };console.log( book.bookName );通过 [] 获取属性值 key是未知的const book = { bookName: "性能优化", price: '100' };let keyName = 'bookName';console.log(book[keyName]);Object.keys()方式这是对象内置属性方法: Object.keys()；该方法返回一个数组，数组内包括 对象内可枚举属性以及方法名称const fruits = {"apple": 3, "pear": 2}const keys= Object.keys(fruits);console.log(keys); // 输出 keys ["apple", "pear"]Object.getOwnPropertyNames()方法返回一个 指定对象 所有自身属性的属性名（包括不可枚举属性, 但不包括 Symbol 值作为名称的属性）组成的数组.（不可枚举: 比如属性是一个js方法）const fruits = {"apple": 3, "pear": 2}const keys = Object.getOwnPropertyNames(fruits);console.log(keys);　　// 输出 keys ["apple", "pear"]for…in最原始的 for…in 循环const fruits = {"apple": 3, "pear": 2}const keys =[];  for(var i in fruits){    keys.push(i);  }console.log(keys);   // 输出 keys ["apple", "pear"]]]></content>
+      <categories>
+        
+          <category> js </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> js </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+</search>

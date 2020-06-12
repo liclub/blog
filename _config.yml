@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 无知者无畏
-subtitle: 无知者无畏's Blog
-description: 无知者无畏
-author: 无知者无畏
+title: 无知无畏
+subtitle: Haoyang's Blog
+description: 一只默默无闻的小前端
+author: YonneLee
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -87,7 +87,7 @@ plugins:
 favicon: https://cdn.jsdelivr.net/gh/galensgan/galensgan.github.io/assets/images/info/galens-favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT, 明不知昔, galens"
+keywords: "Jekyll, NexT, Haoyang's Blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -222,8 +222,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/galensgan
-  简书: https://www.jianshu.com/u/08760e791f9e
+  GitHub: https://github.com/liclub
 
 
 # Social Links Icons
@@ -331,10 +330,10 @@ post_wordcount:
   separated_meta: false
 
 # Wechat Subscriber
-wechat_subscriber:
-  enabled: true
-  qcode: https://cdn.jsdelivr.net/gh/galensgan/galensgan.github.io/assets/images/info/wechat-qrcode.jpg
-  description: 欢迎订阅 BIMFlying，这里分享关于 BIM 的一切。
+#wechat_subscriber:
+#  enabled: true
+#  qcode: https://cdn.jsdelivr.net/gh/galensgan/galensgan.github.io/assets/images/info/wechat-qrcode.jpg
+#  description: 欢迎订阅 BIMFlying，这里分享关于 BIM 的一切。
 
 # Declare license on posts
 post_copyright:
