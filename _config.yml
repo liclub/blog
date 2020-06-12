@@ -444,11 +444,11 @@ changyan:
 # Support for gitalk comments system.
 gitalk:
   enable: true
-  clientID: 63ece14861c297420892
-  clientSecret: 731f0c050c35a3afee5aed41ca386decc768a3f0
+  clientID: 3a463e47a18cfb32000d
+  clientSecret: f2105636f0ea40b011b72c19f9ea531dc3de0154
   repo: blog-comments
-  owner: GalensGan
-  admin: GalensGan
+  owner: Yonnelee
+  admin: Yonnelee
 
 # Baidu Share
 # Available value:
