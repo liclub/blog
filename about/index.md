@@ -20,7 +20,7 @@ type: about
 
 > 一路迷茫，该去何从。
 
-> 无知无畏，不服就干。
+> 春风亭老李，不服就干。
 
 ## 历程
 
@@ -31,4 +31,4 @@ type: about
 
 ## Links
 
-- 个人博客：[无知无畏](https://liclub.github.io/blog/)
+- 个人博客：[春风亭老李](https://liclub.github.io/blog/)

@@ -2,7 +2,7 @@
 layout: post
 category: Web
 title: RESTful API 规范
-tagline: by 无知无畏
+tagline: by 春风亭老李
 tags: 
   - Web
   - RESTful
